@@ -13,7 +13,7 @@ trap "rm -rf '${TMPDIR}'" EXIT
 #KEYSERVER='hkp://pgp.nic.ad.jp'
 #KEYSERVER='hkps://keys.mailvelope.com'
 #KEYSERVER='hkp://hkps.pool.sks-keyservers.net'
-#KEYSERVER='hkp://keyserver.ubuntu.com'
+KEYSERVER='hkp://keyserver.ubuntu.com'
 
 GPG="gpg --quiet --batch --no-tty --no-permission-warning --homedir ${TMPDIR}"
 
